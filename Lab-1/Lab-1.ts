@@ -11,6 +11,8 @@ interface Listing {
   MLSnumber: string,
   photo: string,
   description: string,
+  isSold?: boolean,
+  currentOwner?: string,
   propertySummary: {
     propertyType: string,
     buildingType: string,
@@ -510,6 +512,7 @@ const listings: Listing[] = [
  * from the array above
  */
 //WRITE YOUR CODE BELOW
+const listing0: Listing = listings[0]
 
 /**
  * Task-3:
@@ -523,6 +526,7 @@ const listings: Listing[] = [
  * Make sure to add them as OPTIONAL properties
  */
 //WRITE YOUR CODE BELOW
+const listing0Updated: Listing = {...listing0, isSold: false, currentOwner: "Jane Doe"}
 
 /**
  * NOTE: THIS TASK IS TRICKY!
