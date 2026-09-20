@@ -544,6 +544,11 @@ const listing0Updated: Listing = {...listing0, isSold: false, currentOwner: "Jan
  * AND CHECK parseInt() to help changing quantifiable strings to numbers
  */
 //WRITE YOUR CODE BELOW
+const realtorFees = (listings: Listing):number =>{
+  let initalFee: number = (parseInt((listings.price).replace("$", "").replace(",", "")))
+  let finalFee: number = (initalFee <= 450000 ? initalFee * 0.02 : initalFee * 0.025)
+  return finalFee
+}
 
 /**
  * Task-5:
@@ -551,6 +556,7 @@ const listing0Updated: Listing = {...listing0, isSold: false, currentOwner: "Jan
  * according to their built year
  */
 //WRITE YOUR CODE BELOW
+
 
 /**
  * Task-6:
