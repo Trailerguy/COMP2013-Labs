@@ -556,7 +556,7 @@ const realtorFees = (listings: Listing):number =>{
  * according to their built year
  */
 //WRITE YOUR CODE BELOW
-
+const listingAscendingly: Listing = 
 
 /**
  * Task-6:
