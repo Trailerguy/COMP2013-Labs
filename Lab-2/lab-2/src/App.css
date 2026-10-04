@@ -182,3 +182,23 @@
     border-right-color: var(--border);
   }
 }
+
+.ResortContainer {
+  display:flex;
+}
+
+.ResortCard {
+  padding: 10px;
+  justify-content: space-around;
+  text-align: left;
+  font-size: 15px;
+}
+
+.ResortCountryText {
+  color: white;
+  font-weight: bold;
+}
+
+.ResortLocationText {
+  font-style: italic;
+}
