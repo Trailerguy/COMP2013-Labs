@@ -185,11 +185,11 @@
 
 .ResortContainer {
   display:flex;
+  justify-content: space-around;
 }
 
 .ResortCard {
   padding: 10px;
-  justify-content: space-around;
   text-align: left;
   font-size: 15px;
 }
